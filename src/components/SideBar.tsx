@@ -1,3 +1,5 @@
+import { Button } from './Button'
+
 import '../styles/sidebar.scss'
 
 export function SideBar() {
@@ -7,8 +9,9 @@ export function SideBar() {
       </header>
 
       <span>
-        // icon
-        <p>{ colocar aqui o nome do botao?}</p>
+        <p>
+          <button></button>
+        </p>
       </span>
 
       <div className='buttons-container'>
